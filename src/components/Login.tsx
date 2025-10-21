@@ -5,8 +5,8 @@ interface LoginProps {
 }
 
 // Demo credentials (client-side check only)
-const DEMO_USERNAME = "AkshatAnjali";
-const DEMO_PASSWORD = "22120605";
+const DEMO_USERNAME = "AnjaliBacha";
+const DEMO_PASSWORD = "iloveyou";
 
 export default function Login({ onSuccess }: LoginProps) {
     const [u, setU] = useState("");
